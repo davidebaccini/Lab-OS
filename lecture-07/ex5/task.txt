@@ -1,0 +1,7 @@
+Note: this exercise requires root access. Run in a VM.
+
+Write a script that prints (does not execute) commands to:
+    1. create group labgrp
+    2. create user labuser with home directory and shell /bin/bash
+    3. add labuser to sudo
+    4. set password for labuser
