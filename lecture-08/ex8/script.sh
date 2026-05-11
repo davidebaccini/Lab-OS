@@ -7,9 +7,9 @@ dir_count=0
 
 stats() {
     for i in "$dir_name"/*; do
-        if [[ -f "$i" ]]; then
+        if [[ -f $i ]]; then
             ((file_count++))
-        elif [[ -d "$i" ]]; then
+        elif [[ -d $i ]]; then
             ((dir_count++))
         else
             echo "None"
@@ -20,7 +20,12 @@ stats() {
 }
 
 largest() {
-    echo "largest"
+    for i in "$dir_name"/*; do
+        size=$(wc -c < $i)
+        if [[  ]]; then
+
+        fi
+    done
 }
 
 help() {
