@@ -1,0 +1,3 @@
+Feb  5 14:45:02 system: WARNING: Network interface eth0 is down
+Feb  5 14:45:03 system: INFO: Starting uhttpd service
+Feb  5 14:45:04 system: ERROR: Unable to connect to network
